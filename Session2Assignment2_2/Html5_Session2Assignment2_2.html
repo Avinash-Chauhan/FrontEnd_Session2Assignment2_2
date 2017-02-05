@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<form action="http://www.example.com/review.php" method="get">
+	<fieldset style="width:372px" >
+		<legend>Your Details:</legend>
+		<label>Name:
+		<input type="text" name="name" size="30" maxlength="100"></label><br>
+		<label>Email:
+		<input type="text" name="email" size="30" maxlength="100"></label><br>
+	</fieldset><br>
+		<fieldset style="width:270px">
+			<legend>
+				Your Review:
+			</legend><br>
+			<label>How did your hear about us?&nbsp;<select><option>Google</option></select>
+			</label><br><br>
+			<label>Would you visit again?</label><br>
+			<input type="radio" name="yes"><label>Yes</label>
+			<input type="radio" name="no"><label>No</label>
+			<input type="radio" name="maybe"><label>Maybe</label><br><br>
+			<label>Comments:</label><br>
+			<textarea rows="5" cols="50" id="mytextarea"></textarea><br><br>			
+			<input type="checkbox" name="chkbox" checked="true"><label>Sign me up for email updates</label><br>
+			<input type="submit" value="Submit review" name="submitaaa">
+		</fieldset>
+</form>
+</body>
+</html>
